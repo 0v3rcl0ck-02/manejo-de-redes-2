@@ -19,33 +19,15 @@
                             blue,
                             indigo,
                             violet,
-                            red,);
+                            red);
   height: 150px;
   animation: spin 10s linear infinite;
 }
 @keyframes spin {
   from {
-    background: conic-gradient(
-      from 0deg,
-      red,
-      orange,
-      yellow,
-      green,
-      blue,
-      indigo,
-      violet,
-      red);
+    transform: rotate(0deg);
   }
-  to { 
-  background: conic-gradient(
-    from 360deg,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet,
-    red);
+  to {
+    transform: rotate(360deg);
   }
 }
