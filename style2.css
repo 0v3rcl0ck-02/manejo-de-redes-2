@@ -1,14 +1,51 @@
 /* Fondo lineal */
 .linear-bg {
   background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  height: 100px;
 }
 
 /* Fondo radial */
 .radial-bg {
   background: radial-gradient(circle, #43cea2, #185a9d);
+  height: 100px;
 }
 
 /* Fondo cónico */
 .conic-bg {
-  background: conic-gradient(from 180deg, #fbc2eb, #a6c1ee);
+  background: conic-gradient(from 0deg, red,
+                            orange,
+                            yellow,
+                            green,
+                            blue,
+                            indigo,
+                            violet,
+                            red,);
+  height: 150px;
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  from {
+    background: conic-gradient(
+      from 0deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red);
+  }
+  to { 
+  background: conic-gradient(
+    from 360deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red);
+  }
 }
