@@ -64,6 +64,10 @@ iframe {
 
  /* Pie de página */
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
