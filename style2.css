@@ -1,0 +1,14 @@
+/* Fondo lineal */
+.linear-bg {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+}
+
+/* Fondo radial */
+.radial-bg {
+  background: radial-gradient(circle, #43cea2, #185a9d);
+}
+
+/* Fondo cónico */
+.conic-bg {
+  background: conic-gradient(from 180deg, #fbc2eb, #a6c1ee);
+}
